@@ -1,0 +1,113 @@
+/* LOCATION PAGE STYLE */
+.content-map{
+    /* background-color: yellowgreen; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.txt{
+    /* background-color: aquamarine; */
+    padding: 0rem 5rem 0rem;
+    text-align: left;
+    width: 70%;
+    font-size: 130%;
+}
+
+.map-txt{
+    width: 100%;
+    /* background-color: brown; */
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.map-con{
+    /* background-color: yellow; */
+    /* height: 30rem; */
+    width: 100%;
+    
+}
+
+.iframe-map{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.location-card{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    /* border: 1px solid black; */
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    width: 100%;
+    text-align: left;
+    /* border-radius: 10px; */
+    background-color: whitesmoke;
+    height: auto;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.desc{
+    padding: 1rem;
+}
+
+.cards span{
+    color: black;
+    font-weight: bold;
+}
+
+.cards h6{
+    color: black;
+    font-weight: bold;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.cards:hover {
+    scale: 1.2;
+}
+
+
+@media screen and (max-width: 800px) {
+    /* LOCATION STYLE (RESPONSIVE MODE) */
+    .txt{
+        /* background-color: aquamarine; */
+        padding: 0rem 3rem 0rem 3rem;
+    }
+
+    .location-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: 1px solid black; */
+    }
+
+    .map-txt{
+        /* flex-direction: column-reverse; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .iframe-map{
+        height: 30rem;
+    }
+
+}

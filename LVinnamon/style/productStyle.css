@@ -1,0 +1,71 @@
+/* PRODUCTS PAGE STYLE */
+.product-page-category-link{
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.product-page-link{
+    text-decoration: none;
+    /* font-weight: 800; */
+    color: #99937a;
+}
+
+.product-page-link:hover{
+    color: #FF6B00;
+}
+
+.product-page-link:focus{
+    color: #FF6B00;
+}
+
+.food-container, .drink-container{
+    /* background-color: #FFFFFF; */
+    padding: 1rem;
+}
+
+.product, .baked-goods, .drinks{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.product-boxes img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.product-boxes{
+    padding: 1rem;
+    background-color: #e9e6e6;
+    border-radius: 15px;
+}
+
+.priceStyle{
+    color: #FF6B00;
+    font-weight: bold;
+}
+
+.product-details{
+    text-decoration: none;
+    color: #4E4939;
+}
+
+@media screen and (max-width: 800px) {
+        /* PRODUCTS STYLE (RESPONSIVE MODE) */
+        .product-page-category-link{
+            flex-direction: column;
+            /* background-color: chocolate; */
+            /* width: 15rem; */
+        }
+        .product, .baked-goods, .drinks{
+            display: flex;
+            flex-direction: column;
+            /* width: 100%; */
+        }
+}

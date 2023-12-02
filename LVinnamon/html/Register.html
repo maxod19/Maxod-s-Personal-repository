@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LVinnamon</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/registerStyle.css">
+    <script src="../script/register.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo-con">
+            <div class="logo">
+                <img class="logo-img" src="..\res\LVinnamon-logo.png" alt="">
+            </div>
+            LVinnamon
+        </div>
+        <nav class="navbar">
+
+            <div class="hamburger"></div>
+            <div class="hamburger"></div>
+            <div class="hamburger"></div>
+
+            <div class="dropdown-menu">
+                <div class="dropdown-item">
+                    <a class="dropdown-link" href="Home.html">Home</a>
+                </div>
+                <div class="dropdown-item">
+                    <a class="dropdown-link" href="Register.html">Register</a>
+                </div>
+                <div class="dropdown-item">
+                    <a class="dropdown-link" href="Products.html">Products</a>
+                </div>
+                <div class="dropdown-item">
+                    <a class="dropdown-link" href="Location.html">Location</a>
+                </div>
+                <div class="dropdown-item">
+                    <a class="dropdown-link" href="AboutUs.html">About Us</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- content -->
+    <section class="content-register">
+        <form id="form-regis">
+            <h1>Registration</h1>
+            <label for="name">Full Name:</label>
+            <input type="text" name="name" id="name">
+            <label for="gender">Gender</label>
+                <div id="gender-container">
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender">
+                    <label for="male">Female</label>
+                </div>
+            <label for="region">Region:</label>
+            <select name="region" id="region">
+                <option value="select" selected disabled>select a region</option>
+                <option value="SEA">South East Asia</option>
+                <option value="EA">East Asia</option>
+                <option value="EU">Europe</option>
+                <option value="NA">North America</option>
+            </select>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+            <div id="tos-container">
+                <input type="checkbox" id="tos" name="tos">
+                <label for="tos">I agree to the terms of service</label>
+            </div>
+            <button type="submit" id="submitBtn">Submit</button>
+        </form>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-con">
+            <p>&copy; LVinnamon 2023</p>
+        </div>
+    </footer>
+
+</body>
+</html>

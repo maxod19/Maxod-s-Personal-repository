@@ -1,0 +1,67 @@
+/* ABOUT US PAGE STYLE */
+.content-about{
+    /* background-color: #810000; */
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    /* padding: 0rem 10rem 3rem; */
+}
+
+.about-us-title, .about-us-title-2{
+    color: #ffffff;
+}
+
+.about-us-title-3{
+    color: #49432C;
+}
+
+.company-profile{
+    /* background-color: #7a7150; */
+    background-color: whitesmoke;
+    text-align: justify;
+    padding: 3rem 20rem 5rem;
+    /* color: white; */
+
+    font-size: 130%;
+}
+
+.history{
+    background-color: #49432C;
+    padding: 3rem 20rem 5rem;
+    text-align: justify;
+    color: white;
+    font-size: 130%;
+}
+
+.happy-hour{
+    background-color: #dd9d6c;
+    padding: 3rem 20rem 5rem;
+    text-align: justify;
+    color: white;
+    font-size: 130%;
+}
+
+
+.lvinnamon-img{
+    background-color: #49432C;
+    width: 100%;
+    height: 100%;
+}
+
+.about-us-img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .lvinnamon-img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .company-profile, .happy-hour, .history{
+        padding: 3rem;
+        text-align: left;
+    }
+}
